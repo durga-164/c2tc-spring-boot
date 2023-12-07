@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/c2tc-spring-boot/static/css/main.483b5dfa.css",
+    "main.js": "/c2tc-spring-boot/static/js/main.db83dea9.js",
+    "static/js/787.d4aba7ab.chunk.js": "/c2tc-spring-boot/static/js/787.d4aba7ab.chunk.js",
+    "static/media/logo.svg": "/c2tc-spring-boot/static/media/logo.645859aa7cad2d084ca0c986b9c2e7bc.svg",
+    "static/media/background.webp": "/c2tc-spring-boot/static/media/background.6fd3ece946c55804ebd2.webp",
+    "index.html": "/c2tc-spring-boot/index.html",
+    "main.483b5dfa.css.map": "/c2tc-spring-boot/static/css/main.483b5dfa.css.map",
+    "main.db83dea9.js.map": "/c2tc-spring-boot/static/js/main.db83dea9.js.map",
+    "787.d4aba7ab.chunk.js.map": "/c2tc-spring-boot/static/js/787.d4aba7ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.483b5dfa.css",
+    "static/js/main.db83dea9.js"
+  ]
+}
