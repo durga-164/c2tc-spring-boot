@@ -1,0 +1,372 @@
+
+
+body {
+  background-color: #022e51;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.App {
+  align-items: center;
+  margin-top: 0;
+  padding: 0;
+}
+
+#ul1 {
+  padding: 0;
+  margin: 20px;
+}
+
+.allul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 70px;
+  
+  justify-content: space-between; /* Adjust the alignment as needed */
+  padding: 0;
+}
+
+.allul li {
+  width: calc(33.30% - 10px); /* Adjust the width of each item with margin */
+  margin-bottom: 20px;
+  border: 1px solid #b9a8a8;
+  font-size:x-large;
+  width:600px;
+  margin-bottom: 30px;
+  text-align:justify;
+  margin-right: auto;
+  color: #c6d5e7;
+  padding:30px;
+  box-sizing: border-box;
+}
+.allproducth1{
+  text-align: center;
+  color: #a3b4c8;
+}
+
+#b1
+
+ {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 30px;
+  background-color: #b74803;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  padding: 20px 40px;
+  transition: 0.5s;
+  width: 350px;
+  height: 100px;
+  display: inline-block; /* Display buttons in a line */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border-radius: 10px;
+  cursor:pointer;
+  margin: 0 10px; /* Adjust margin between buttons */
+}
+
+.navdiv {
+  display: flex; /* Use flexbox */
+  justify-content: center;
+  text-align: center;
+  margin-left: 300px;
+  width: 1700px;
+}
+
+#b1:hover,
+#b2:hover,
+#b3:hover {
+  background-color: #ce7b48;
+  border-color:#a3b4c8;
+  color: #022e51;
+}
+.logoImage {
+  width: 140px; /* Set the width */
+  height: 100px; /* Set the height */
+  align-items: center;
+  justify-content: baseline;
+  margin-top: 40px;
+  margin-right: 5px; /* Reduce the right margin */
+  padding-right: 0;
+  padding-top: 10px;
+}
+
+#title1 {
+  text-align: center;
+  margin-left: 5px; /* Adjust the left margin */
+  padding: 0.5em;
+  margin-top: 0px;
+  font-size: 80px; /* Make our h1 tag larger */
+  font-family: sans-serif; /* Choosing our font */
+  background: linear-gradient(to right, rgba(255, 215, 255, 0) 0%, rgba(225, 255, 255, 0.5) 20%, rgba(255, 255, 255, 0) 61%), linear-gradient(rgb(3, 57, 79) 52%, rgb(7, 53, 72) 60%, rgb(4, 30, 73) 61%); /* You can change the colors based on your preference */
+  background-clip: text; /* It defines how far the background should extend within an element, here we set it to text */
+  -webkit-background-clip: text; /* For browser compatibility */
+  -webkit-text-fill-color: transparent; /* Specifies the fill color of text characters. We use transparent to use the background as our text fill  */
+  animation: wave 2000ms ease alternate infinite;
+  transition: all 0.4s ease;
+}
+
+@keyframes wave {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 50vw 10px;
+  }
+}
+
+.divtitle {
+  width: 2300px;
+  margin-top: 0;
+  background: linear-gradient(white, #a3b4c8);
+  height:150px;
+  padding-top: 0.5px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+#navContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; /* Set the width to cover the entire viewport */
+  z-index: 1000; /* Adjust the z-index as needed */
+  background-color: #022e51; /* Set the background color */
+}
+#mark1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(7, 24, 38);
+  font-size: 60px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.parah2{
+  font-size:30px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: #080e15;
+  text-align:justify;
+  text-wrap:pretty;
+  border-radius: 10px;
+  padding: 20px;
+  width: 1400px;
+  background-color: #c4d0dd;
+  margin-left: 180px;
+  font-weight:bold;
+}
+.searchform{
+  display: flex;
+  
+}
+
+.searchdiv{
+  border-radius: 10px;
+  width:600px;
+  height: 500px;
+  text-align: center;
+  align-items: center;
+  margin-top: 100px;
+  font-size: large;
+  background-color: #a3b4c8;
+  align-items: center;
+  margin: auto;
+}
+#orp{
+  font-size: large;
+  font-weight: bold;
+}
+#searchbutton{
+  width: 150px;
+  height: 60px;
+  border-radius: 5px;
+  margin-left: 100px;
+  border:2px solid #b74803;
+  background-color:#022e51;
+  color: azure;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: x-large;
+}
+#searchbutton:hover{
+  color: #080e15;
+  background-color:#ce7b48 ;
+}
+#searchlabel{
+  font-size: xx-large;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: underline;
+  display: inline-block;
+  width: 290px;
+  text-align: right;
+  margin-bottom: 10px;
+  margin-top:15px;
+		
+}
+.labeldiv{
+  margin-bottom: 10px;
+}
+#idtext{
+  width: 200px;
+  height: 40px;
+  margin-top: -5px; /* Adjust the value to move the textbox up */
+  align-items: center;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 0px;
+  font-size: larger;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+  
+}
+.searchdisplay{
+  margin-top: 200px;
+  margin-bottom: 20px;
+  border: 1px solid #b9a8a8;
+  font-size:x-large;
+  text-align:justify;
+  margin-right: auto;
+  color: #0a0e12;
+  padding: 0px;
+  border:3px solid #ce7b48;
+  box-sizing:content-box;
+  font-size: larger;
+  font-weight: bold;
+  background-color: rgb(236, 231, 173);
+  
+
+}
+#errorp{
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-right: auto;
+  color: #0e1215;
+  padding: 10px;
+  width: 300px;
+  margin-left: 100px;
+  background-color: rgb(248, 237, 117);
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: inline-block;
+  width: 400px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding:10px;
+}
+
+
+.modifydiv{
+  background-color: #a3b4c8;
+  align-items: center;
+  width: 800px;
+  height: 700px;
+  margin-left: 750px;
+  padding: 10px;
+  margin-bottom: 50px;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size:30px;
+}
+
+#name,#category,#price,#manufacturing,#expiry,#text1,#text2{
+  margin-left:0;
+  padding: auto;
+  width: 250px;
+  text-align: center;
+  align-items: center;
+  font-size:x-large;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  height: 40px;
+}
+
+#insert{
+  width: 150px;
+  height: 60px;
+  border-radius: 5px;
+  margin-left: 300px;
+  margin-top: 30px;
+  border:2px solid #b74803;
+  background-color:#022e51;
+  color: azure;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: x-large;
+}
+#deletebutton,#updatebutton{
+  width: 200px;
+  height: 60px;
+  border-radius: 5px;
+  margin-left: 300px;
+  margin-top: 30px;
+  border:2px solid #b74803;
+  background-color:#022e51;
+  color: azure;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: x-large;
+}
+#deletebutton:hover{
+  background-color: #ce7b48;
+  color: #022e51;
+}
+#insert:hover{
+  background-color: #ce7b48;
+  color: #080e15;
+}
+.deleteform{
+  background-color: #a3b4c8;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 800px;
+  font-weight: bold;
+  height: 600px;
+  margin-left: 750px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size:30px;
+}
+#del{
+  margin-left:0;
+  padding: auto;
+  width: 250px;
+  font-size:x-large;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  height: 40px;
+}
+.deleteform label{
+  display: inline-block;
+  width: 500px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 20px;
+  margin-left: 20px;
+
+  
+}
+.update-div{
+  background-color: #a3b4c8;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 800px;
+  font-weight: bold;
+  height: 600px;
+  margin-left: 750px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size:30px;
+}
+.update-div label{
+  display: inline-block;
+  width: 500px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 20px;
+  margin-left: 20px;
+
+}
